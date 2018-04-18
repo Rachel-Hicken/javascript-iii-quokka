@@ -7,9 +7,9 @@ var mydates = {
     spots: false
 }
 
-//delete spots from mydates
-mydates.spots = null;
-delete mydates.spots;
 mydates
+delete mydates.bianca
+//delete spots from mydates
+
 
 //loop over my dates and delete all properties with a falsy value

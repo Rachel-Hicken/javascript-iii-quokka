@@ -14,7 +14,7 @@ var myObj = {
                 name:'cotton',
                 origin:{
                     state:{
-                        name:'Texas'
+                        name:'Texas',
                         doStuff:()=>console.log("shoot dem guns")
                     }
                 }

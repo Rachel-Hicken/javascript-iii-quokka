@@ -8,19 +8,9 @@ let yessa = {
 }
 
 //Get yessa's name and favoritePhrase
-// function describePerson(person){
-//     let name = person.name;
-//     let skill = person.skills;
-//     let planet = person.planet;
 
-//     let {
-//         name,
-//         skill,
-//         planet
-//     } = person
-// }
 function describePerson( { name, skills, planet } ){
-    console.log(`${name} likes ${skills[0]} on planet ${planet} `)
+    console.log(`${name} likes ${skills[0]} on planet ${planet}.`)
 }
 
 describePerson( yessa );
