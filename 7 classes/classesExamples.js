@@ -62,7 +62,9 @@ class Movie{
     }
 
     addRating(score){
+        if(score>=0 && score<=5){
         this.ratings.push(score)
+        }
     }
 
     averageRating(){
